@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class sumOfArray{
+    public static void main(String[] Args){
+    Scanner input=new Scanner(System.in);
+    int size=input.nextInt();
+    int[] array=new int[size];
+    int index=0;
+    while(index<size){
+        array[index]=input.nextInt();
+        index+=1;
+    }
+      int sum=0;
+    for (int each_item:array){
+         sum+=each_item;
+        
+    }
+       System.out.println(sum);
+    }
+}
+
+OUT PUT:
+5
+1 2 3 4 5 
+sum of array:15
