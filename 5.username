@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class userName{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        String string1=input.nextLine();
+        String string2=input.nextLine();
+        if(string1.equals(string2)){
+            System.out.println("user name valid");
+        }else{
+            System.out.println("user name Invalid");
+        }
+    }
+}
+
+OUTPUT:
+string1:charan@2003
+string2:charan@2003
+
+user name valid
