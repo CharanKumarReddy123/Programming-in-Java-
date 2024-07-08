@@ -1,6 +1,6 @@
  import java.util.Scanner;
 
-  class composite1729{
+  class composite{
     public static void main(String args[]){
     
     Scanner input=new Scanner(System.in);
